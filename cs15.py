@@ -1,3 +1,5 @@
+# Do not copy | My Personal Use Only 
+# Originally on Replit
 # -------------------------------------
 # Input
 # Enter the base: 5
