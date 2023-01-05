@@ -23,17 +23,27 @@ print(tele)
 # print() Will always read out or see out the value inside in this case the variable
 # \n is new line
 # -----------------------
-# Other Possible (Doesn't Work for Assign)
-# print("Ken","\nVirginia","\n555-555-0101")
+# Other Possible 
+# print("Ken Lambert","\nVirginia","\n555-555-0101")
 # -----------------------
-# Other Possible (Doesn't Work for Assign)
-# name, loc, tele = "Ken","\nVirginia","\n555-555-0101"
+# Other Possible 
+# name, loc, tele = "Ken Lambert","\nVirginia","\n555-555-0101"
 # print(name, loc, tele)
 # -----------------------
-# Other Possible (Doesn't Work for Assign)
-# name, loc, tele = "Ken","Virginia","555-555-0101"
+# Other Possible 
+# name, loc, tele = "Ken Lambert", "Virginia", "555-555-0101"
 # print(name)
 # print(loc)
 # print(tele)
 # -----------------------
-
+# Other Possible 
+# id = '''Ken Lambert
+# Virgina
+# 555-555-0101'''
+# print(id)
+# -----------------------
+# Other Possible 
+# print('''Ken Lambert
+# Virgina
+# 555-555-0101''')
+# -----------------------
