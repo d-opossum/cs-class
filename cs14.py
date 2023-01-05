@@ -1,3 +1,5 @@
+# Do not copy | My Personal Use Only 
+# Originally on Replit
 # -------------------------
 # Width Input
 # Enter the width: 33
