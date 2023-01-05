@@ -6,13 +6,11 @@
 # -----------------------
 # Define variables
 # -----------------------
-name, loc, tele = "Ken", "Virginia", "555-555-0101"
+name, loc, tele = "Ken","\nVirginia","\n555-555-0101"
 # -----------------------
 # Print out variables
 # -----------------------
-print(name)
-print(loc)
-print(tele)
+print(name, loc, tele)
 # -----------------------
 # The how
 # variable = "data value"
