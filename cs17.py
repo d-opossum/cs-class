@@ -1,3 +1,5 @@
+# Do not copy | My Personal Use Only 
+# Originally on Replit
 # -------------------------
 # input
 # Enter your name: Alex
