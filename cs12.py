@@ -6,9 +6,7 @@
 # -----------------------
 # Define variables
 # -----------------------
-name = "Ken Lambert"
-loc = "Virgina"
-tele = "555-555-0101"
+name, loc, tele = "Ken", "Virginia", "555-555-0101"
 # -----------------------
 # Print out variables
 # -----------------------
