@@ -1,12 +1,20 @@
-# Instructions
+# -------------------------
+# Width Input
 # Enter the width: 33
-# Enter the height: 22
-# The area is 726 square units.
-# Width 
+# -------------------------
 width = int(input("Enter the width: "))
-# Height
+# -------------------------
+# Height Input
+# Enter the height: 22
+# -------------------------
 height = int(input("Enter the height: "))
-# Area calu
+# -------------------------
+# Area Math
+# -------------------------
 area = width * height
+# -------------------------
 # Print 
+# The area is 726 square units.
+# -------------------------
 print("The area is", area, "square units.")
+# -------------------------
