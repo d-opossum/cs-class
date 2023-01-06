@@ -8,6 +8,9 @@
 # -------------------------------------------
 # Not really a class work
 # trying to do the most cursed way to say hello world
+# -------------------------------------------
+# It doesn't need to be said, but don't run this.
+# -------------------------------------------
 import os
 import random
 a = 0
