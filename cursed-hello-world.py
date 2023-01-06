@@ -48,6 +48,21 @@ favorites = open(path_favorites, "w")
 # ---------------------------------------
 # ---------------------------------------
 # ---------------------------------------
+# ---------------------------------------
+writenFile = ('''
+user_write = ('''
+              
+             ''')
+z = 0
+while (z < 10):
+    z += 1
+    numbers = str(z)
+    fileName = (numbers + ".txt")
+    userFiles = open(filename, "x")
+    userFiles.write(user_write)
+    userFiles.close()
+''')
+# ---------------------------------------
 a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9 = "H", "E", "L", "O", " ", "W", "R", "D", "!"
 hellno = ("{}{}{}{}{}{}{}{}{}{}{}{}".format(a_1, a_2, a_3, a_3, a_4, a_5, a_6, a_4, a_7, a_3, a_8, a_9))
 ran_a = random.randint(0,999999999999)
@@ -90,6 +105,9 @@ while (a < 1):
   letters = ["H","e","l","o","W","r","d","!", " "]; print(letters[0],letters[1],letters[2],letters[2],letters[3],letters[8],letters[4],letters[3],letters[5],letters[2],letters[6],letters[7])
   curse.close()
   os.system(runme)
+# ---------------------------------------
+  
+# ---------------------------------------
 # ---------------------------------------
 # a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9 = "H", "E", "L", "O", " ", "W", "R", "D", "!"
 # print("{}{}{}{}{}{}{}{}{}{}{}{}".format(a_1, a_2, a_3, a_3, a_4, a_5, a_6, a_4, a_7, a_3, a_8, a_9))  
