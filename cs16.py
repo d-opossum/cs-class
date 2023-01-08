@@ -9,6 +9,8 @@ def area_cal(radius):
   return area
 def output_area(area):
   print("The area is: %a" % area)
-radius = user_input()
-area = area_cal(radius)
-output_area(area)
+def ending():
+  radius = user_input()
+  area = area_cal(radius)
+  output_area(area)
+ending()
