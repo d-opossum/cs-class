@@ -5,7 +5,9 @@ def user_input():
   name = input("Enter your name: ")
   age = int(input("Enter your age: "))
   return name, age
-def print_user_input():
-  name, age = user_input()
+def print_user_input(name, age):
   print("{} is {} years old.".format(name, age))
-print_user_input()
+def ending():
+  name, age = user_input()
+  print_user_input(name, age)
+ending()
