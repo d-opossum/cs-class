@@ -1,18 +1,11 @@
 # Do not copy | My Personal Use Only 
 # Originally on Replit
 # -------------------------
-# input
-# Enter your name: Alex
-# Enter your age: 23
-# -------------------------
-name = str(input("Enter your name: "))
-age = int(input("Enter your age: "))
-# -------------------------
-# output
-# Alex is 23 years old.
-# -------------------------
-print("{} is {} years old.".format(name, age))
-# -------------------------
-# Alternative Output
-# print(name, "is", age, "years old.")
-# -------------------------
+def user_input():
+  name = input("Enter your name: ")
+  age = int(input("Enter your age: "))
+  return name, age
+def print_user_input():
+  name, age = user_input()
+  print("{} is {} years old.".format(name, age))
+print_user_input()
